@@ -1,2 +1,8 @@
-// Anything exported from this file is importable by other in-browser modules.
-export function publicApiFunction() {}
+export * as api from "./api"
+export { getRouteParams } from './utils/routeParams'
+
+export const routes: Record<string, string> = {
+  HOME: '/',
+  SEARCH: '/search/:term',
+  RECIPE: '/recipe/:id'
+} 
