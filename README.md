@@ -8,6 +8,8 @@
     Chef Utility - Single-SPA Application
 </h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a329d461-28a1-40ff-a462-25657e22ce35/deploy-status)](https://app.netlify.com/sites/chef-utility/deploys)
+
 This project was created to learn a set of [techonologies](#technologies). They are implemented just for fun in a recipes search website called Chef.
 
 This repository is the Single-SPA Application responsible for providing utility functions and shared functionalities throughout the [7 other Single-SPA Applications](#applications).
