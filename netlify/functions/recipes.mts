@@ -5,7 +5,7 @@ import serverless from "serverless-http"
 const spoonacularApi = axios.create({
   baseURL: "https://api.spoonacular.com",
   headers: {
-    "x-api-key": Netlify.env.get("SPOONACULAR_API_KEY")
+    "x-api-key": process.env.SPOONACULAR_API_KEY
   }
 })
 

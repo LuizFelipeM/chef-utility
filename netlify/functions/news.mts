@@ -5,7 +5,7 @@ import serverless from "serverless-http"
 const newsApi = axios.create({
   baseURL: "https://newsapi.org/v2",
   headers: {
-    "x-api-key": Netlify.env.get("NEWS_API_KEY")
+    "x-api-key": process.env.NEWS_API_KEY
   }
 })
 
