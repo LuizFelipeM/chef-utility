@@ -22,6 +22,7 @@
     "@babel/preset-env": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
     "@babel/runtime": "^7.23.3",
+    "@types/express": "^4.17.21",
     "babel-jest": "^27.5.1",
     "concurrently": "^6.2.1",
     "cross-env": "^7.0.3",
@@ -45,11 +46,12 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@netlify/functions": "^2.6.0",
     "@types/jest": "^27.0.1",
     "@types/systemjs": "^6.1.1",
     "@types/webpack-env": "^1.16.2",
     "axios": "^1.6.7",
-    "newsapi": "^2.4.1",
+    "serverless-http": "^3.2.0",
     "single-spa": "^5.9.3"
   },
   "types": "dist/Chef-utility.d.ts"
