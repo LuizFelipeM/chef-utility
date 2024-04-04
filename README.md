@@ -58,6 +58,12 @@ npm start
 # or
 yarn start
 ```
+or use the Netlify CLI to run the functions + the static content using
+```bash
+npm run netlify
+# or
+yarn netlify
+```
 
 Do the process of [Running locally](#running-locally) described in each of the [applications](#applications) and you'll have the full application up and running.
 
